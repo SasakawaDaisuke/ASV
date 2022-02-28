@@ -3,7 +3,6 @@ import micropyGPS
 import threading
 import time
 
-
 gps = micropyGPS.MicropyGPS(9, 'dd') # MicroGPSオブジェクトを生成する。
                                      # 引数はタイムゾーンの時差と出力フォーマット
 
